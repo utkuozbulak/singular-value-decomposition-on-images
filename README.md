@@ -1,6 +1,6 @@
 # Singular Value Decomposition on Images
 
-I was curious about singular value decompositions and it's effects on images decided to start this tiny side project. So I decomposed a grayscale image (**cat!**) and an rgb image (**dog!**) and re-composed from their decomposed matrices part by part. Below are some resulting images.
+I was curious about singular value decompositions and it's effects on images and decided to start this tiny side project. I decomposed a grayscale image (**cat!**) and an rgb image (**dog!**) in Python and re-composed the images from their decomposed matrices part by part(matrix by matrix). Below are results of this experiment.
 
 ##Code
 
@@ -17,3 +17,23 @@ Grayscale Cat
 RGB Dog
 
 ![dog](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/rgb_dog.jpg "RGB_dog")
+
+##Singular Value Decomposition Explanation and the Motivation
+
+
+If we say the result of a singular value decomposition is `U, S, V = svd(some_matrix)` then the resulting values U, S and V are matrices. 
+
+The matrix U is composed of eigenvectors of the matrix A* *transpose*(A)
+
+The matrix V is composed of eigenvectors of the matrix *transpose*(A) *A
+
+The matrix S is composed of eigenvalus of those matrices. ( ps. eigenvalues of A* *transpose*(A) and *transpose*(A) *A are the same )
+
+If we do the multiplication U\*S\*V we get the intial matrix (the image). Now let's look at from a different way, the matrices U and V are composed of vectors and S is composed of eigenvalues of those vectors. Let's assume we have `N` many eigenvalues/vectors. If we multiply them individually and sum them all up, that is also equal to image itself, instead of doing matrix multiplication we are just doing scalar(s)-vector(u)-vector transpose(v) multiplication and result is also a matrix.
+
+How will those matrices(images) look like ? 
+
+What happens if we sum up part of those matrices (sub-images) ?
+
+##Results
+
