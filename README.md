@@ -1,6 +1,6 @@
 # Singular Value Decomposition on Images
 
-I was curious about singular value decompositions and it's effects on images and decided to start this tiny side project. I decomposed a grayscale image (**cat!**) and an rgb image (**dog!**) in Python and re-composed the images from their decomposed matrices part by part(matrix by matrix). Below are results of this experiment.
+I was curious about singular value decompositions and its effects on images and decided to start this tiny side project. I decomposed a grayscale image (**cat!**) and an rgb image (**dog!**) in Python and re-composed the images from their decomposed matrices part by part(matrix by matrix). Below are results of this experiment.
 
 ##Code
 
