@@ -56,23 +56,23 @@ For grayscale cat there are 400 decomposed matrices, below are some of the examp
 
 (and 397 more like this) now if we sum those matrices
 
-**Grayscale Cat, top 5 Decomposed Matrices summed **
+**Grayscale Cat, top 5 Decomposed Matrices summed**
 
 ![cat_top_5](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/cat_top5_decomposed_matrices.png "cat_top_5")
 
-**Grayscale Cat, top 10 Decomposed Matrices summed **
+**Grayscale Cat, top 10 Decomposed Matrices summed**
 
 ![cat_top_10](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/cat_top10_decomposed_matrices.png "cat_top_10")
 
-**Grayscale Cat, top 20 Decomposed Matrices summed **
+**Grayscale Cat, top 20 Decomposed Matrices summed**
 
 ![cat_top_20](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/cat_top20_decomposed_matrices.png "cat_top_20")
 
-**Grayscale Cat, top 100 Decomposed Matrices summed **
+**Grayscale Cat, top 100 Decomposed Matrices summed**
 
 ![cat_top_100](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/cat_top100_decomposed_matrices.png "cat_top_100")
 
-**Grayscale Cat, Original Image **
+**Grayscale Cat, Original Image**
 
 ![cat](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/grayscale_cat.jpg "Grayscale_cat")
 
@@ -95,19 +95,19 @@ For grayscale cat there are 399 decomposed matrices, below are some of the examp
 
 ...(and 396 more like this) now if we sum those matrices
 
-**RGB Dog, top 5 Decomposed Matrices summed **
+**RGB Dog, top 5 Decomposed Matrices summed**
 
 ![dog_top_5](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/dog_top5_decompositions.png "dog_top_5")
 
-**RGB Dog, top 10 Decomposed Matrices summed **
+**RGB Dog, top 10 Decomposed Matrices summed**
 
 ![dog_top_10](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/dog_top10_decompositions.png "dog_top_10")
 
-**RGB Dog, top 20 Decomposed Matrices summed **
+**RGB Dog, top 20 Decomposed Matrices summed**
 
 ![dog_top_20](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/dog_top20_decompositions.png "dog_top_20")
 
-**RGB Dog, top 100 Decomposed Matrices summed **
+**RGB Dog, top 100 Decomposed Matrices summed**
 
 ![dog_top_100](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/dog_top100_decompositions.png "dog_top_100")
 
