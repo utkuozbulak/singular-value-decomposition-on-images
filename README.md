@@ -33,7 +33,7 @@ If we do the multiplication U\*S\*V we get the intial matrix (the image). Now le
 
 How will those matrices(images) look like ? 
 
-What happens if we sum up part of those matrices (sub-images) ?
+What happens if we sum up some of those matrices (sub-images) but not all ?
 
 ##Results
 
@@ -54,7 +54,7 @@ For grayscale cat there are 400 decomposed matrices, below are some of the examp
 
 ![Grayscale_cat_decomposed_matrix_2](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/cat_2.png "Grayscale_cat_decomposed_matrix_2")
 
-(and 397 more like this) now if we sum those matrices
+...and 397 more like this, now if we sum those matrices
 
 **Grayscale Cat, top 5 Decomposed Matrices summed**
 
@@ -93,7 +93,7 @@ For grayscale cat there are 399 decomposed matrices, below are some of the examp
 
 ![RGB_dog_decomposed_matrix_2](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/dog_2.png "RGB_dog_decomposed_matrix_2")
 
-...(and 396 more like this) now if we sum those matrices
+...and 396 more like this, now if we sum those matrices
 
 **RGB Dog, top 5 Decomposed Matrices summed**
 
