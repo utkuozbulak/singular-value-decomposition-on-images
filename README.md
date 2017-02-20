@@ -72,7 +72,7 @@ For grayscale cat there are 400 decomposed matrices, below are some of the examp
 
 ![cat_top_100](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/sample_decomposition_results/cat_top100_decomposed_matrices.png "cat_top_100")
 
-**Grayscale Cat, Original Image**
+**Grayscale Cat Original Image**
 
 ![cat](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/grayscale_cat.jpg "Grayscale_cat")
 
