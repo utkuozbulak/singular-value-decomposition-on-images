@@ -2,11 +2,11 @@
 
 I was curious about singular value decompositions and its effects on images and decided to start this tiny side project. I decomposed a grayscale image (**cat!**) and an rgb image (**dog!**) in Python and re-composed the images from their decomposed matrices part by part(matrix by matrix). Below are results of this experiment.
 
-##Code
+## Code
 
 The code to recreate the decompositions/re-compositions are in the src folder. I only ended up using numpy and scipy packages for this project.
 
-##Data
+## Data
 
 Two images are in /data/ folder. Sample outputs of summed up decompositions are in /data/sample_decomposition_results/. 
 
@@ -18,7 +18,7 @@ Two images are in /data/ folder. Sample outputs of summed up decompositions are 
 
 ![dog](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/rgb_dog.jpg "RGB_dog")
 
-##Singular Value Decomposition Explanation
+## Singular Value Decomposition Explanation
 
 
 If we say the result of a singular value decomposition is `U, S, V = svd(some_matrix)` then the resulting values U, S and V are matrices. 
@@ -35,9 +35,9 @@ How will those matrices(images) look like ?
 
 What happens if we sum up some of those matrices (sub-images) but not all ?
 
-##Results
+## Results
 
-###Grayscale Cat
+### Grayscale Cat
 For grayscale cat there are 400 decomposed matrices, below are some of the examples of decomposed matrices.
 
 **Grayscale Cat, Decomposed Matrix 0**
@@ -76,7 +76,7 @@ For grayscale cat there are 400 decomposed matrices, below are some of the examp
 
 ![cat](https://raw.githubusercontent.com/utkuozbulak/singular-value-decomposition-on-images/master/data/grayscale_cat.jpg "Grayscale_cat")
 
-###RGB Dog
+### RGB Dog
 For grayscale cat there are 399 decomposed matrices, below are some of the examples of decomposed matrices.
 
 **RGB Dog, Decomposed Matrix 0**
